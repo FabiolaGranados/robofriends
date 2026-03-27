@@ -1,16 +1,17 @@
-# React + Vite
+## RoboFriends
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RoboFriends is a React web app that lets users search through a list of robots by name. As you type, the displayed robots update automatically, showcasing dynamic filtering and interactive UI built entirely with React and JavaScript.
 
-Currently, two official plugins are available:
+## Features & What It Demonstrates
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Live Search & Filtering: Updates the robot list in real time as the user types, demonstrating React state management and dynamic rendering.
+- Component Based Architecture: All parts of the app are built as reusable React components, showing understanding of props, and clean project structure.
+- JavaScript Logic: Uses JavaScript functions to handle search functionality and data filtering efficiently.
+- Styling & UI Design: Clean, responsive design created with CSS, showing ability to combine functionality with user friendly visuals.
+- Project Organization: Folders and files are structured logically, demonstrating good coding practices for maintainable projects.
+- Interactive User Experience: The app responds instantly to user input, demonstrating attention to UX principles.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ ## Challenges & Solutions
+- Filtering data dynamically as the user types; solved using React state and JavaScript array methods.
+- Structuring components so they are reusable and maintainable.
+- Styling a responsive and visually appealing interface using only CSS.
