@@ -3,7 +3,7 @@
 RoboFriends is a React web app that lets users search through a list of robots by name. As you type, the displayed robots update automatically, showcasing dynamic filtering and interactive UI built entirely with React and JavaScript.
 
 ## Features & What It Demonstrates
-
+- Used AI to help with debugging and error prompts.
 - Live Search & Filtering: Updates the robot list in real time as the user types, demonstrating React state management and dynamic rendering.
 - Component Based Architecture: All parts of the app are built as reusable React components, showing understanding of props, and clean project structure.
 - JavaScript Logic: Uses JavaScript functions to handle search functionality and data filtering efficiently.
